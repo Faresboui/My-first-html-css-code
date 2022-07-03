@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- icon website -->
+	<link rel="icon" type="image/x-icon" href="images/mars.ico">	
+	<title>Would you live in Mars ?</title>
+</head>
+<body> 
+	<header>
+		<h1 class="welcome" id="title">Welcome to our journey to Mars!</h1>
+		<p class="p1" id="description">Our <img class="mars-img" src="https://icon-library.com/images/mars-icon/mars-icon-4.jpg" alt="Mars-img"> Space agency (Rak0nSpace) give you the opportunity to travel to Mars, <br>Before Starting the journey we need more informations about you traveler ! <br><p class="p2">Please fill out the form :</p> </p>
+	</header>
+	<div class="container">
+		<form id="survey-form" action="https://www.freecodecamp.org/">
+		<div class="formg">
+	  <label class="forms" id="name-label" for="name">Name: </label>
+		<input required  placeholder="Enter your name"  id="name" type="text">
+		<label class="forms" id="Gender-label" for="Gender">Gender: </label>
+		<select id="dropdown">
+			<option value="Male">Male</option>
+			<option value="female">Female</option>
+			<option value="Other">Other</option>
+		</select >
+		<label class="forms" id="adress-label" for="adress">Adress: </label>
+		<input  required placeholder="Enter your complete adress" name="text" id="adress" type="textarea">
+		<label class="forms" id="email-label" for="email">Email: </label>
+		<input  required placeholder="Enter your email" id="email" type="email">
+		<label class="forms" id="number-label" for="number">Phone number: </label>
+		<input required  size="20" minlength="8"  maxlength="15"  placeholder="Enter your phone number"  type="tel" id="number" >
+		<label class="forms" id="question" for="question">what Kind of journey you want ? </label>
+	    <input  type="radio" value="1" name="groupe1" ><span class="s1">Normal Journey</span>
+		<input  type="radio" value="2" name="groupe1" ><span class="s2">Business Journey</span>
+				<input  type="radio" value="3" name="groupe1" ><span class="s2">Classic journey</span>
+				<label class="forms" for="eat">What do you prefer to eat during the journey ?</label>
+				<input type="checkbox" name="ch1" value="Chiken" id="ch1"><span class="s1">Chiken</span>
+				<input type="checkbox" name="ch2" value="Beef" id="ch2"><span class="s1">Beef</span>
+		<label id="story" name="story" for="story"><span class="s3">Tell us about you:</span></label>
+        <textarea required  id="story" name="story" rows="5" cols="33" placeholder="I want to visit mars because ..."></textarea>
+		<label for="submit"></label>
+		<input id="submit" type="Submit">
+	</div>
+		</form>
+	
+</div>
+</body>
+</html>
