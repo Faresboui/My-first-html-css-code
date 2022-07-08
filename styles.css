@@ -2,7 +2,7 @@ body {
     background-image: url(https://i.ibb.co/12Rdf91/25469-PIA24346-web.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    font-family: Arial;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -69,5 +69,4 @@ label {
  
 .s1 , .s2 , .s3 {
     color: #ffffff;
-    font-family: Arial;
 }
